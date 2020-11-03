@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.30c30494.chunk.css",
+    "main.css": "/static/css/main.128456de.chunk.css",
     "main.js": "/static/js/main.dabb0ea1.chunk.js",
     "main.js.map": "/static/js/main.dabb0ea1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c6f57e2f.js",
@@ -10,7 +10,7 @@
     "static/js/3.ff64b61e.chunk.js": "/static/js/3.ff64b61e.chunk.js",
     "static/js/3.ff64b61e.chunk.js.map": "/static/js/3.ff64b61e.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.30c30494.chunk.css.map": "/static/css/main.30c30494.chunk.css.map",
+    "static/css/main.128456de.chunk.css.map": "/static/css/main.128456de.chunk.css.map",
     "static/js/2.925ffdb0.chunk.js.LICENSE.txt": "/static/js/2.925ffdb0.chunk.js.LICENSE.txt",
     "static/media/DarkKakugeCheckerCaptured.8b21beb5.jpg": "/static/media/DarkKakugeCheckerCaptured.8b21beb5.jpg",
     "static/media/FightingBoardCaptured.83ba2d6d.webp": "/static/media/FightingBoardCaptured.83ba2d6d.webp",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.c6f57e2f.js",
     "static/js/2.925ffdb0.chunk.js",
-    "static/css/main.30c30494.chunk.css",
+    "static/css/main.128456de.chunk.css",
     "static/js/main.dabb0ea1.chunk.js"
   ]
 }
