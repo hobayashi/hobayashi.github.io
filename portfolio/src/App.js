@@ -11,7 +11,7 @@ function App() {
         <dl>
           <dt><a target="brank" href="https://github.com/hobayashi/SoundSamplerVerE">Key Drummer</a></dt>
           <dd>Simple Sound Player.</dd>
-          <dd>Using Electron, TypeScript.</dd>
+          <dd>Using Electron, TypeScript, jQuery.</dd>
         </dl>
         <img src={KeyDrummerCaptured} alt=""></img>
         <dl>
@@ -23,7 +23,7 @@ function App() {
         <dl>
           <dt><a target="brank" href="https://play.google.com/store/apps/details?id=com.companyname.fightingboard">Fighting Board</a></dt>
           <dd>Score Board App for Fighing Games.</dd>
-          <dd>Using C#, Xamarin.Android</dd>
+          <dd>Using C#, Xamarin.Android, Rx</dd>
         </dl>
         <img src={FightingBoardCaptured} alt=""></img>
       </header>
