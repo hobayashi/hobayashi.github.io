@@ -1,68 +1,41 @@
-import style from "../static/styles/Style";
+import style from '../static/styles/Style';
+import AppCard from './AppCard';
 
-export default () => (
-  <div className="App">
-    {style}
-    <header className="App-header">
-      <h1>Hobayashi's Portfolios</h1>
-    </header>
-    <div class="app-card">
-      <dl>
-        <dt>Key Drummer</dt>
-        <dd>Simple Sound Player.</dd>
-        <dd>Using Electron, TypeScript, jQuery.</dd>
-        <dd>
-          <a
-            target="brank"
-            href="https://github.com/hobayashi/SoundSamplerVerE"
-          >
-            GitHub
-          </a>
-        </dd>
-      </dl>
-      {/* <img src="../static/images/KeyDrummerCaptured.png" /> */}
-    </div>
-    <div class="app-card">
-      <dl>
-        <dt>Dark Kakuge-Checker</dt>
-        <dd>Adapt Dark Mode UI to Kakuge-Checker.</dd>
-        <dd>Using Google Extentions, TypeScript.</dd>
-        <dd>
-          <a
-            target="brank"
-            href="https://chrome.google.com/webstore/detail/dark-kakuge-checker/keaigfdapmnmnndndekncagmndhlppnp?hl=ja"
-          >
-            Chrome Web Store
-          </a>
-        </dd>
-      </dl>
-      {/* <img src="../static/images/DarkKakugeCheckerCaptured.jpeg" /> */}
-    </div>
-    <dl>
-      <dt>Fighting Board for Android</dt>
-      <dd>Score Board App for Fighing Games.</dd>
-      <dd>Using C#, Xamarin.Android, Rx</dd>
-      <dd>
-        <a
-          target="brank"
-          href="https://play.google.com/store/apps/details?id=com.companyname.fightingboard"
-        >
-          Play Store
-        </a>
-      </dd>
-    </dl>
-    <dl>
-      <dt>Fighting Board for iOS</dt>
-      <dd>Score Board App for Fighing Games.</dd>
-      <dd>Using React.js, Next.js.</dd>
-      <dd>
-        <a
-          target="brank"
-          href="https://apps.apple.com/jp/app/fighting-board/id1566082511"
-        >
-          App Store
-        </a>
-      </dd>
-    </dl>
-  </div>
+const Index = () => (
+	<div className="App">
+		{style}
+		<header className="App-header">
+			<h1>Hobayashi's Portfolios</h1>
+		</header>
+		<AppCard
+			appName="Key Drummer"
+			description1="Simple Sound Player."
+			description2="Using Electron, TypeScript, jQuery."
+			link="https://github.com/hobayashi/SoundSamplerVerE"
+			linkTitle="GitHub"
+		></AppCard>
+		<AppCard
+			appName="Dark Kakuge-Checker"
+			description1="Adapt Dark Mode UI to Kakuge-Checker."
+			description2="Using Google Extentions, TypeScript."
+			link="https://chrome.google.com/webstore/detail/dark-kakuge-checker/keaigfdapmnmnndndekncagmndhlppnp?hl=ja"
+			linkTitle="Chrome Web Store"
+		></AppCard>
+		<AppCard
+			appName="Fighting Board for Android"
+			description1="Score Board App for Fighing Games."
+			description2="Using C#, Xamarin.Android, Rx."
+			link="https://play.google.com/store/apps/details?id=com.companyname.fightingboard"
+			linkTitle="Play Store"
+		></AppCard>
+		<AppCard
+			appName="Fighting Board for iOS"
+			description1="Score Board App for Fighing Games."
+			description2="Using React.js, Next.js."
+			link="https://apps.apple.com/jp/app/fighting-board/id1566082511"
+			linkTitle="App Store"
+		></AppCard>
+	</div>
 );
+
+export default Index;
