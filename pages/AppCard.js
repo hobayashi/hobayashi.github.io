@@ -13,7 +13,7 @@ const AppCard = (props) => (
 				</a>
 			</dd>
 		</dl>
-		{/* <img src="../static/images/KeyDrummerCaptured.png" /> */}
+		<img src={props.image} />
 	</div>
 );
 

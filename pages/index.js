@@ -13,6 +13,7 @@ const Index = () => (
 			description2="Using Electron, TypeScript, jQuery."
 			link="https://github.com/hobayashi/SoundSamplerVerE"
 			linkTitle="GitHub"
+			image="../static/images/KeyDrummerCaptured.png"
 		></AppCard>
 		<AppCard
 			appName="Dark Kakuge-Checker"
@@ -20,6 +21,7 @@ const Index = () => (
 			description2="Using Google Extentions, TypeScript."
 			link="https://chrome.google.com/webstore/detail/dark-kakuge-checker/keaigfdapmnmnndndekncagmndhlppnp?hl=ja"
 			linkTitle="Chrome Web Store"
+			image="../static/images/DarkKakugeCheckerCaptured.jpeg"
 		></AppCard>
 		<AppCard
 			appName="Fighting Board for Android"
@@ -27,6 +29,7 @@ const Index = () => (
 			description2="Using C#, Xamarin.Android, Rx."
 			link="https://play.google.com/store/apps/details?id=com.companyname.fightingboard"
 			linkTitle="Play Store"
+			image="../static/images/FightingBoardCaptured.webp"
 		></AppCard>
 		<AppCard
 			appName="Fighting Board for iOS"
@@ -34,6 +37,7 @@ const Index = () => (
 			description2="Using React.js, Next.js."
 			link="https://apps.apple.com/jp/app/fighting-board/id1566082511"
 			linkTitle="App Store"
+			image="../static/images/FightingBoardRN.png"
 		></AppCard>
 	</div>
 );

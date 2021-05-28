@@ -10,11 +10,6 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-code {
-	font-family: source-code-pro, Menlo, Monaco, Consolas,
-		'Courier New', monospace;
-}
-
 dt {
 	font-size: 1em;
 }
@@ -22,10 +17,6 @@ dt {
 dd {
 	font-size: 0.8em;
 	width: 600px;
-}
-
-dl {
-	margin-right: 120px;
 }
 
 a {
@@ -39,6 +30,10 @@ a {
 
 /* スマホ　767px以下 */
 @media only screen and (max-width: 767px) {
+	.app-card {
+		display: block;
+	}
+
 	img {
 		width: 50%;
 		height: auto;
@@ -61,17 +56,6 @@ a {
 	color: white;
 	padding: 1em;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-	.App-logo {
-		animation: App-logo-spin infinite 20s linear;
-	}
-}
-
-.App-link {
-	color: #61dafb;
-}
-
 `}
 	</style>
 );
