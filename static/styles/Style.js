@@ -16,7 +16,6 @@ dt {
 
 dd {
 	font-size: 0.8em;
-	width: 600px;
 }
 
 a {
@@ -44,6 +43,10 @@ a {
 	img {
 		width: auto;
 		height: 200px;
+	}
+
+	dl {
+		width: 40%;
 	}
 }
 
