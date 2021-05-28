@@ -16,15 +16,25 @@ code {
 }
 
 dt {
-	font-size: 2em;
+	font-size: 1em;
 }
 
 dd {
-	font-size: 1em;
+	font-size: 0.8em;
+	width: 600px;
+}
+
+dl {
+	margin-right: 120px;
 }
 
 a {
 	color: rgb(27, 149, 224);
+}
+
+.app-card {
+	display: flex;
+	margin-bottom: 20px;
 }
 
 /* スマホ　767px以下 */
@@ -37,26 +47,19 @@ a {
 /* pc　768px以上 */
 @media only screen and (min-width: 768px), print {
 	img {
-		width: 640px;
-		height: auto;
+		width: auto;
+		height: 200px;
 	}
 }
 
 .App {
-	text-align: center;
 	background-color: #282c34;
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	justify-content: center;
 	font-size: calc(10px + 2vmin);
 	color: white;
-}
-
-.App-logo {
-	height: 40vmin;
-	pointer-events: none;
+	padding: 1em;
 }
 
 @media (prefers-reduced-motion: no-preference) {
