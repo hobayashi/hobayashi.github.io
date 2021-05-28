@@ -1,9 +1,13 @@
 import style from '../static/styles/Style';
 import AppCard from './AppCard';
+import Head from "next/head";
 
 const Index = () => (
 	<div className="App">
-		{style}
+		<Head>
+			{style}
+			<link rel="icon" href="/favicon.ico"></link>
+		</Head>
 		<header className="App-header">
 			<h1>Hobayashi's Portfolios</h1>
 		</header>
